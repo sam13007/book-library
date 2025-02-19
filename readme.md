@@ -4,6 +4,8 @@
 
 ##### 18/02 -> Mongo DB setup and graphql typeDefs
 
+##### 19/02 -> Graphql Resolvers and folder structure
+
 # Packages
 
 ### Node packages
@@ -32,3 +34,5 @@
 # Commands
 
 - npx tsc --init
+
+<img src="./docs/folderstructure.jpeg" alt="Folder Structure"/>
