@@ -27,9 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-slate-200`}
       >
-        <Provider>{children}</Provider>
+        <div className="m-auto w-[80%]">
+          <h1 className="text-center py-4 text-2xl font-extrabold uppercase">
+            Book Library
+          </h1>
+          <Provider>{children}</Provider>
+        </div>
       </body>
     </html>
   );
