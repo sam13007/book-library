@@ -1,4 +1,3 @@
-import { IResolvers } from "@graphql-tools/utils";
 import Book, { IBook } from "../model/Book";
 
 const resolvers = {

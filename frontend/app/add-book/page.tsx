@@ -51,18 +51,12 @@ const page = () => {
             value={bookTitle}
           />
         </div>
-        <button
-          type="submit"
-          className="py-2 px-4 bg-cyan-500 shadow-md hover:shadow-cyan-500/50 rounded-lg"
-        >
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
       <div className="flex justify-center mt-4">
-        <button
-          className="py-2 px-4 bg-indigo-400 shadow-md hover:shadow-indigo-500/50 rounded-lg"
-          onClick={() => route.push("/")}
-        >
+        <button className="btn btn-secondary" onClick={() => route.push("/")}>
           Go Back
         </button>
       </div>

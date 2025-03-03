@@ -9,7 +9,7 @@ export default function Home() {
       <Books />
       <div className="flex justify-center mt-4">
         <button
-          className="py-2 px-4 bg-cyan-500 shadow-md hover:shadow-cyan-500/50 rounded-lg"
+          className="btn btn-primary"
           onClick={() => route.push("/add-book")}
         >
           Add New book
